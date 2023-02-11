@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+body{
+    background-color: #161616;
+    color: white;
+}
+.main{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+}
+header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+header .logo img{
+    position: absolute;
+  margin-right: 25px;
+    width: 68px;
+    height: 68px;
+    margin-top: 1%;
+ 
+}
+header .logo h1{
+    margin-left: 69px;
+    margin-top: 15%;
+   
+  }
+h1{
+    font-family: Arial;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    margin-right: 5%;
+}
+
+form input{
+    width: 500px;
+    height: 33px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    border: 8px;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 0 20px;
+   
+}
+
+form button{
+    position: absolute;
+    top: 111.5px;
+    left: 992px;
+    height: 34px;
+    width: 2%;
+    background: none;
+    border: none;
+    background-color: rgb(226, 226, 226);
+    border-radius: 5px;
+    cursor: pointer;
+    
+   
+}
+
+
+form button i{
+   height: 50px;
+   
+}
+
+
+form button i:hover{
+color: gray;
+}
+.films-list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    width: 800px;
+}
+
+.film-card{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content:flex-end;
+    
+    height: 444px;
+    width: 300px;
+    margin-top: 26px;
+    margin-bottom: 16px;
+    margin-right: 36px;
+    border-radius: 4px;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    overflow: hidden;
+  
+}
+
+
+.film-card:hover{
+  transform: scale(1.1);
+}
+
+@media screen and (max-width: 720px){
+    header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        margin-right: 25%;
+    }
+    form {
+        display: flex;
+        justify-content: center;
+        padding-top: 40px;
+        margin-right: 35%;
+    }
+    form input {
+        width: 301px;
+        height: 33px;
+        outline: none;
+        border: none;
+        border-radius: 5px;
+        border: 8px;
+        font-size: 10px;
+        font-weight: 600;
+        padding: 0 20px;
+      
+    }
+   
+    form button {
+        
+            position: absolute;
+            top: 110.5;
+            left: 390px;
+            height: 34px;
+            width: 5%;
+            background: none;
+            border: none;
+            background-color: rgb(226, 226, 226);
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .films-list {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            text-align: center;
+            justify-content: center;
+            width: 500px;
+        }
+    }
