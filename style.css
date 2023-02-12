@@ -165,3 +165,53 @@ color: gray;
             width: 500px;
         }
     }
+    @media screen and (max-width: 420px){
+        form {
+            display: flex;
+            justify-content: center;
+            padding-top: 40px;
+            margin-right: 15%;
+        }
+        form input {
+            width: 300px;
+            height: 33px;
+            outline: none;
+            border: none;
+            border-radius: 5px;
+            border: 8px;
+            font-size: 10px;
+            font-weight: 600;
+            padding: 0 20px;
+        }
+        form button {
+            position: absolute;
+            top: 110.5;
+            left: 320px;
+            height: 34px;
+            width: 9%;
+            background: none;
+            border: none;
+            background-color: rgb(226, 226, 226);
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .films-list {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            text-align: center;
+            justify-content: center;
+            width: 500px;
+            margin-left: 45%;
+        }
+        .films-list {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            text-align: center;
+            justify-content: center;
+            width: 500px;
+            margin-left: 45%;
+            margin-top: 7%;
+        }
+    }
