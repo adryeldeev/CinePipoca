@@ -166,11 +166,15 @@ color: gray;
         }
     }
     @media screen and (max-width: 420px){
+        
+        .main{
+            
+        }        
         form {
             display: flex;
             justify-content: center;
             padding-top: 40px;
-            margin-right: 15%;
+            margin-right: 5%;
         }
         form input {
             width: 300px;
@@ -186,7 +190,7 @@ color: gray;
         form button {
             position: absolute;
             top: 110.5;
-            left: 320px;
+            left: 328px;
             height: 34px;
             width: 9%;
             background: none;
